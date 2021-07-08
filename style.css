@@ -1,22 +1,29 @@
-.color{
+
+#colorPalette {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.color {
     border: 1px solid black;
     display: inline-block;
     height: 40px;
     width: 40px;
 }
 
-.color c1 {
-    background-color: palevioletred;
+
+#pixel-board{
+    margin: auto;
+    border-collapse: collapse;
 }
 
-.color c2 {
-    background-color: orange;
-}
+.pixel {
+   background-color: white;
+   background: white;
+   display: inline-block;
+   border: solid 1px black;
+   width: 40px;
+   height: 40px;    
 
-.color c3 {
-    background-color: cyan;
-}
-
-.color c4{
-    background-color: violet
 }

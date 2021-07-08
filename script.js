@@ -7,3 +7,5 @@ function colour() {
 function alteraCor(pixel) {
     pixel.style.backgroundColor = corFixa;
 } 
+
+
