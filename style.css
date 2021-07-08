@@ -3,8 +3,20 @@
     display: inline-block;
     height: 40px;
     width: 40px;
+}
+
+.color c1 {
     background-color: palevioletred;
+}
+
+.color c2 {
     background-color: orange;
+}
+
+.color c3 {
     background-color: cyan;
+}
+
+.color c4{
     background-color: violet
 }
