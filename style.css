@@ -1,0 +1,10 @@
+.color{
+    border: 1px solid black;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: palevioletred;
+    background-color: orange;
+    background-color: cyan;
+    background-color: violet
+}
