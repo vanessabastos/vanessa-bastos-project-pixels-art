@@ -1,50 +1,42 @@
-.body {
-    background-color:violet;
-}
-
-#title {
-    text-align: center;
-
-}
-
 #color-pallete {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
 }
+
 .color {
     border: 1px solid black;
     display: inline-block;
     height: 40px;
     width: 40px;
-    ;
-}
-#c1 {
-    color: black;
+    margin: center;
+
 }
 
-#c2 {
-    color: orange;
+#black {
+    background-color: black;
 }
 
-#c3 {
-    color: cyan;
+#orange {
+    background-color: orange;
 }
 
-#c4 {
-    color: purple;
+#cyan {
+    background-color: cyan;
+}
+
+#purple {
+    background-color: purple           ;
 }
 
 #pixel-board{
-    margin: auto;
     border-collapse: collapse;
 }
 
 .pixel {
    background-color: rgb(255, 255, 255);
    display: inline-block;
-   border: solid 1px rgb(0, 0, 0);
+   border: solid 1px black;
    width: 40px;
    height: 40px;    
-
 }
