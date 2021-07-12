@@ -22,3 +22,13 @@ function colorPixel(){
    }
    }
    colorPixel(); 
+
+   function clear() {
+    const pixel = document.getElementsByClassName('pixel');
+    for (let index = 0; index < pixel.length; index += 1) {
+      pixel[index].style.backgroundColor = 'white';
+    }
+  }
+  
+  const clearPixel = document.getElementById('clear-board');
+  clearPixel.addEventListener('click', clear);
