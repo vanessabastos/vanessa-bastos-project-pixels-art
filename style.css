@@ -1,16 +1,36 @@
-#color-pallete {
-    width: 100%;
+* {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 0 auto;
+  }
+
+body {
+    background-size: 100%;
+    background-color:rgb(16, 16, 94);
+}
+
+#title {
+    text-align: center;
+    border-radius: 5px;
+    margin: 30px auto;
+    letter-spacing: 3px;
+    color: black;
+    background: linear-gradient(to bottom, rgb(239, 177, 241), rgb(122, 66, 128));
+  }
+
+#color-pallete {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .color {
-    border: 1px solid black;
-    display: inline-block;
     height: 40px;
     width: 40px;
-    margin: center;
-
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 0 0 2px black;
+    margin: 2px;
+    border-radius: 45px;
 }
 
 #black {
@@ -26,16 +46,25 @@
 }
 
 #purple {
-    background-color: purple           ;
+    background-color: purple;
+}
+
+#menu {
+  text-align: center;
+  margin: 10px;
+  font-size: 16px;
+  padding: 5px;
 }
 
 #pixel-board{
-    border-collapse: collapse;
+  display:flex;
+  background-color: rgb(216, 234, 236);
+  width: fit-content;
+  margin: auto;
 }
 
 .pixel {
    background-color: rgb(255, 255, 255);
-   display: inline-block;
    border: solid 1px black;
    width: 40px;
    height: 40px;    

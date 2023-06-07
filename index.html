@@ -1,69 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Arte com Pixels"</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"Arte com Pixels"</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
-    <h1 id="title">"Paleta de Cores"</h1>
-  
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
 
-      <div id='color-palette'>
-        <div class="selected color" id="black"></div>
-        <div class="color" id="orange"></div>
-        <div class="color" id="cyan"></div>
-        <div class="color" id="purple"></div>
-      </div>
-    </header>
+  <div id='color-palette'>
+    <div class="selected color" id="black"></div>
+    <div class="color" id="orange"></div>
+    <div class="color" id="cyan"></div>
+    <div class="color" id="purple"></div>
+  </div>
 
-    <section>
-      <div id="menu">
-        <button id="clear-board">Limpar</button>
-      </div>
-    </section>
+  <table id="pixel-board">
+    <tr>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+    <tr>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+    <tr>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+    <tr>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+    <tr>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+      <td class="pixel"></td>
+    </tr>
+  </table>
 
-    <table id="pixel-board">
-      <tr>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-      </tr>
-      <tr>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-      </tr>
-      <tr>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-      </tr>
-      <tr>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-      </tr>
-      <tr>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-        <td class="pixel"></td>
-      </tr>
-    </table>
-    <script src="script.js"></script>
+  <section>
+    <div id="menu">
+      <button id="clear-board">Limpar</button>
+    </div>
+  </section>
 
+  <script src="script.js"></script>
 </body>
+
 </html>
