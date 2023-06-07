@@ -5,7 +5,7 @@
 
 body {
     background-size: 100%;
-    background-color:rgb(16, 16, 94);
+    background-image: linear-gradient(to left, #4c6c81, #042a55);
 }
 
 #title {
@@ -14,7 +14,7 @@ body {
     margin: 30px auto;
     letter-spacing: 3px;
     color: black;
-    background: linear-gradient(to bottom, rgb(239, 177, 241), rgb(122, 66, 128));
+    background: linear-gradient(to bottom, rgb(142, 167, 221), rgb(52, 107, 117));
   }
 
 #color-pallete {
@@ -34,19 +34,23 @@ body {
 }
 
 #black {
-    background-color: black;
+  background-color: black;
 }
 
 #orange {
-    background-color: orange;
+  background-color: orange;
 }
 
 #cyan {
-    background-color: cyan;
+  background-color: cyan;
 }
 
 #purple {
-    background-color: purple;
+  background-color: purple;
+}
+
+#crimson {
+  background-color: crimson;
 }
 
 #menu {
@@ -58,14 +62,16 @@ body {
 
 #pixel-board{
   display:flex;
-  background-color: rgb(216, 234, 236);
+  background-color: rgb(37, 75, 110);
   width: fit-content;
   margin: auto;
+  
 }
 
 .pixel {
-   background-color: rgb(255, 255, 255);
+   background-color: rgb(40, 82, 121);
    border: solid 1px black;
    width: 40px;
-   height: 40px;    
+   height: 40px;  
+   border-radius: 45px;  
 }
